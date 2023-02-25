@@ -1,6 +1,9 @@
+html {
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
 body {
 	background: black;
-	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .postcard {
@@ -28,7 +31,6 @@ body {
 
 .postcard-body {
 	display: flex;
-	padding: 5px;
 }
 
 .body-left p:first-child {
@@ -39,6 +41,7 @@ input {
 	border-top: 0;
 	border-right: 0;
 	border-left: 0;
+	font-size: 15px;
 }
 
 p {
